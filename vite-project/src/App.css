@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+}
+
+* {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.card--img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+p {
+    font-weight: 900;
+    font-size: 1.1em;
+    color: white;
+    text-align: center;
+}
+
+span {
+    font-weight: 400;
+    color: rgb(196, 197, 198);
+}
+
+.card {
+    background-color: black;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(243, 243, 243, 0.2) 5px 25px 29px 10px;
+    margin-block: 20px;
+    margin-inline: auto;
+}
+
+.title,
+.year,
+.genre,
+.rating {
+    letter-spacing: 1px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+nav {
+    height: 100px;
+    color: rgb(170, 125, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 30px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 2em;
+}
